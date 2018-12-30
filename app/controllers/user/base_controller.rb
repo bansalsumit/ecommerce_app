@@ -9,6 +9,7 @@ class User::BaseController < ApplicationController
   end
 
   def create
+    debugger
     @user = User.find(params[:id])
     if @user.save
 
