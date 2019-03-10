@@ -1,4 +1,4 @@
-class ModelController < ApplicationController
+class UsersController < User::BaseController
   before_filter :find_model
 
 
